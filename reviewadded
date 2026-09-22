@@ -1,0 +1,11 @@
+Command:
+Invoke-RestMethod -Uri "http://localhost:5000/customer/auth/review/1?review=This%20is%20an%20excellent%20book" -Method Put -WebSession $session
+
+Output:
+Review added successfully
+
+Verification:
+Invoke-RestMethod -Uri "http://localhost:5000/review/1"
+
+Review:
+lisolethu : This is an excellent book
