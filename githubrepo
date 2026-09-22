@@ -1,0 +1,8 @@
+Task 1 – GitHub Repository
+
+Command:
+curl.exe -I https://github.com/ibm-developer-skills-network/expressBookReview
+
+Output:
+HTTP/2 200
+This repository is the IBM Developer Skills Network expressBookReview repository from which the student's GitHub repository was forked.

@@ -1,7 +1,7 @@
-Task 10 â€“ Delete Book Review
+Task 10 – Delete Book Review
 
 Command:
 Invoke-RestMethod -Uri "http://localhost:5000/customer/auth/review/1" -Method Delete -WebSession $session
 
 Output:
-Review deleted successfully 
+review deleted

@@ -1,0 +1,7 @@
+Task 7 – Register New User
+
+Command:
+Invoke-RestMethod -Uri "http://localhost:5000/register" -Method Post -ContentType "application/json" -Body '{"username":"lisolethu","password":"Password123"}'
+
+Output:
+User successfully registered. Now you can login
